@@ -1,5 +1,6 @@
 import { ArrowRight, Download, Code, Database, Smartphone, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import profileImage from '@/assets/profile-image.jpg';
 
 const HeroSection = () => {
   const techStack = [
@@ -88,7 +89,7 @@ const HeroSection = () => {
                 <div className="absolute inset-0 gradient-primary rounded-full opacity-20 animate-float"></div>
                 <div className="absolute inset-4 bg-white rounded-full shadow-hover flex items-center justify-center">
                   <img
-                    src="/lovable-uploads/eb6d0a19-86e3-4ab1-a27f-038064d09786.png"
+                    src={profileImage}
                     alt="Ripan Samui - Full Stack Developer"
                     className="w-full h-full object-cover rounded-full"
                   />
