@@ -1,6 +1,6 @@
 import { ArrowRight, Download, Code, Database, Smartphone, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import profileImage from '@/assets/profile-image.jpg';
+import profileImage from '@/assets/profile-image-new.jpg';
 
 const HeroSection = () => {
   const techStack = [
