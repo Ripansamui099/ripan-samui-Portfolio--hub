@@ -48,7 +48,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-xl font-heading font-bold text-gradient-primary">
-              Ripan Samui
+              Portfolio
             </h1>
           </div>
 
